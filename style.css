@@ -1,0 +1,249 @@
+/* ||FONTS */
+@font-face {
+    font-family: "Avenir";
+    src: url(./fonts/AvenirLTStd-Black.otf);
+    src: url(./fonts/AvenirLTStd-Book.otf);
+    src: url(./fonts/AvenirLTStd-Roman.otf);
+}
+
+@font-face {
+    font-family: "Helvetica";
+    src: url(./fonts/Helvetica-Bold.ttf);
+    src: url(./fonts//Helvetica-BoldOblique.ttf);
+    src: url(./fonts/helvetica-light-587ebe5a59211.ttf);
+    src: url(./fonts/Helvetica-Oblique.ttf);
+    src: url(./fonts/Helvetica.ttf);
+}
+
+/* ||SETUP */
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+    color: #4B5D68;
+    text-align: left;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+/* ||TYPOGRAPHY */
+/* extra */
+.font-weight--bolder {
+    font-weight: 900;
+}
+
+.color--dark {
+    color: #212353;
+}
+
+.bg--pink {
+    background-color: #F063B8;
+}
+/* by selectors */
+body {
+    font-family: 'Avenir', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+h1 {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 110%;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+h2,
+h3 {
+    font-family: 'Helvetica', sans-serif;
+    line-height: 130%;
+}
+
+p {
+    font-size: 1.125rem;
+}
+
+button {
+    font-family: 'Avenir';
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 0.005em;
+}
+/* by classes */
+.navbar__about-title {
+    font-weight: 800;
+}
+
+.testimonials__title {
+    color: #FFFFFF;
+}
+
+.info-top__title {
+    font-size: 1.25rem;
+}
+
+.info-bottom__adress {
+    font-size: 1rem;
+}
+
+.info-bottom__mail {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.bottom__copyrights {
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.info-bottom__adress,
+.info-bottom__mail,
+.bottom__copyrights {
+    line-height: 180%;
+    letter-spacing: 0.01em;
+}
+
+.about__item,
+.help__item {
+    font-family: 'Avenir';
+    font-weight: 400;
+    line-height: 250%;
+}
+/* ||GENERALS */
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: 50px;
+}
+
+.arrow__btn {
+    margin: 50px auto;
+    padding: 17px 29px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+}
+
+.info__btn {
+    padding: 16px 37px 15px;
+    color: #FFFFFF;
+    font-size: 1.125rem;
+}
+
+.box__btn {
+    background-color: inherit;
+}
+
+.btn,
+.logo,
+.navbar__about-title,
+.navbar__item,
+.nav__sliders,
+.nav__arrow-left,
+.nav__arrow-right,
+.about__title,
+.about__item,
+.help__title,
+.help__item,
+.social-media__title,
+.sm-icon,
+.bottom__messanger-icon {
+    cursor: pointer;
+}
+/* ||ICONS */
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    background-color: #9C69E2;
+    margin-top: 27px;
+}
+
+.rectangle {
+    width: 20px;
+    height: 35px;
+    border-radius: 20px;
+    aspect-ratio: 1/1;
+    background-color: #F063B8;
+    margin-top: 12px;
+}
+
+.arrow__img {
+    width: 20px;
+    height: 14px;
+    background-image: url(./images/Group\ 56.png);
+    background-size: cover;
+    margin-left: 20px;
+}
+/* Testimonials navigation icons */
+.nav__slider-first {
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    aspect-ratio: 1/1;
+    background-color: #F063B8;
+}
+
+.nav__slider-rest {
+    width: 5px;
+    height: 5px;
+    border-radius: 50px;
+    aspect-ratio: 1/1;
+    background-color:#FFFFFF;
+}
+
+.nav__arrow-left {
+    background-image: url(./images/Group\ 57.png);
+    background-size: cover;
+    width: 40px;
+    height: 14px;
+}
+
+.nav__arrow-right {
+    background-image: url(./images/Group\ 56v2.png);
+    background-size: cover;
+    width: 20px;
+    height: 14px;
+}
+/* Footer icons */
+.sm-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.fb-icon {
+    background-image: url(./images/f.png);
+}
+
+.tt-icon {
+    background-image: url(./images/t.png);
+}
+
+.inst-icon {
+    background-image: url(./images/i.png);
+}
+
+.bottom__messanger-icon {
+    width: 60px;
+    height: 60px;
+    background-image: url(./images/Group\ 64.png);
+}
