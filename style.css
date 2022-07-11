@@ -247,7 +247,9 @@ button {
     height: 60px;
     background-image: url(./images/Group\ 64.png);
 }
-/* ||NAVBAR */
+/* ||LAYOUT */
+
+/* Navbar */
 .header {
     width: 100%;
     height: 60px;
@@ -272,7 +274,7 @@ button {
     margin: 17px auto 17px;
 }
 
-/* ||LAND PAGE */
+/* Land page */
 .landpage {
     width: 100%;
     height: calc(100vh - 60px);
@@ -309,7 +311,7 @@ button {
     background-image: url(./images/image1\ 1.png);
     background-size: cover;
 }
-/* ||ABOUT-US */
+/* About-us */
 .about-us {
     width: 90%;
     background-color: rgba(240, 99, 184, 0.15);
@@ -342,7 +344,7 @@ button {
     /* margin: 0 auto; */
     margin-right: 40px;
 }
-/* ||FEATURES */
+/* Features */
 .features__headline {
     text-align: center;
 }
@@ -430,7 +432,7 @@ button {
 .box__img-fourth {
     background-image: url(./images/image6\ 1.png);
 }
-/* ||TESTIMONIALS */
+/* Testimonials */
 .testimonials {
     width: 90%;
     background-color: #9C69E2;
@@ -442,7 +444,7 @@ button {
     align-items: center;
     margin: 0px auto 52px;
 }
-/* ||FOOTER */
+/* Footer */
 .footer {
     display: flex;
     flex-direction: column;
